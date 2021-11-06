@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    body{
+        width: 1000px;
+        background: rgba(0, 0,0, 0.8);
+    } 
+    /* body{
+                width: 1500px;
+                height: 800px;
+                background-image: url('dos.jpeg');
+                border: 2px solid red;
+                background-repeat: no-repeat;
+                background-size: cover;
+        } */
+    #header{
+        width: 1500px;
+        /* margin: 0 auto; */
+        height: 200px;
+        background-color:goldenrod; 
+
+    }
+    #header img{
+        max-width: 741px;
+        max-height: 140px;
+        box-sizing: content-box;
+    }
+    #box{
+        width: 200px;
+        height: 190px;
+        background-color: turquoise;
+        float: left;
+        border: 5px solid#fff;
+        margin-top: -200px;
+        margin-left: 25px;
+        position: absolute;
+    }
+    #menu{
+        background-color:green;
+        width: 1500px;
+        height: 60px;
+        margin: 0 auto;
+    }
+    
+    #menu ul{
+        float: left;
+        list-style: none;
+        /* background-color: greenyellow; */
+        background-color: rgba(0, 0, 0, 0.6);
+        
+        padding-left: 101px;
+        padding-right: 69px;
+    }
+    #menu ul li{
+        float: left;
+        padding: 10px 20px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        color: brown;
+        font-variant: small-caps;
+        font-weight: bolder;
+    }
+    #blog, #blog1, #blog2, #blog3{
+        width: 1000px;
+        height: 1400px;
+        background-color: azure;
+        padding: 50px;
+        margin: 0 auto;
+        margin-left: 200px;
+        margin-top: 100px;
+        margin-bottom: 200px;
+        margin-right: 153px;
+        float: left;
+        border:25px solid red ;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+        /* background-image: url('food.jpg'); */
+        /* background-repeat: no-repeat;
+        background-attachment: fixed; */
+    }
+    h2{
+        color: indigo;
+    }
+    #blog a, #blog1 a, #blog2 a, #blog3 a{
+        text-decoration: none;
+        background-color: seagreen;
+        color:whitesmoke;
+        padding: 15px 62px;
+        font-weight: 900;  
+    }
+    #blog h1, #blog1 h1, #blog2 h1, #blog3 h1{
+        font-weight: 900;
+        font-variant: small-caps;
+        border-bottom:5px solid green ;
+    }
+    #blog a:hover, #blog1 a:hover, #blog2 a:hover, #blog3 a:hover{
+        background-color:blue;
+        color:whitesmoke;
+    }
+    img{
+        width: 200px;
+        height: 190px;
+    }
+    /* img:hover{
+        border: 10px solid greenyellow;
+        box-sizing: border-box;
+    } */
+    #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10, #b11, #b12, #b13, #b14, #b15, #b16, #b17, #b18, #b19, #b20, #b21, #b22{
+       float: left;
+       padding: 20px;
+    }
+    #menu ul li ul{
+        display: none;
+    }
+    #menu ul li:hover ul{
+        display: block;
+        position: absolute;
+        z-index: 100;
+    }
+    #menu ul li:hover ul li{
+        float: none;
+    }
+    
+    /* #menu ul li ul li{
+        width: 100px;
+    } */
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+        <!-- <img src="f11.jpg"/>
+        <img src="f12.jpg"/> -->
+    </div>
+    <div id="menu">
+        <div id="box">
+            <img src="oil.jpg" width="100%"/>
+        </div>
+        <ul>
+            <li>
+                <a href="#blog">
+                    <strong>Home
+                    </strong>
+                </a>
+            </li>
+            <li>
+                <a href="#blog">
+                    <strong>About
+                    </strong>
+                </a>
+            </li>
+            <li id="abcd">
+                <a href="#blog">
+                    <strong>Food Order
+                        <ul>
+                            <a href="#blog">
+                                <li >Breakfast
+                                   
+                                </li>
+                            </a>
+                            <a href="#blog1">
+                                <li >Lunch
+                                    
+                                </li>
+                            </a>
+                            <a href="#blog2">
+                                <li >Snacks
+                                    
+                                </li>
+                            </a>
+                            <a href="#blog3">
+                                <li >Dinner
+                                    
+                                </li>
+                            </a>
+                        </ul>
+                    </strong>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <strong>Food Testing</strong>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <strong>Contacts Us</strong>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- ******************************************************************* -->
+    <div id="blog">
+        <div id="b1">
+            <h1 align="center">
+                Our best and tasty breakfast
+            </h1>
+        </div>
+        <div id="b11">
+            <h2>Thepla Achar</h2>
+            <img src="thepla.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b12">
+            <h2>Chilka Chutney</h2>
+            <img src="chilka.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b13">
+            <h2>Toast Butter</h2>
+            <img src="toast.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b14">
+            <h2>Upma Chutney</h2>
+            <img src="upma.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+    </div>
+    <!-- ****************************************************** -->
+    <div id="blog1">
+        <div id="b1">
+            <h1 align="center">
+                Our best and tasty lunch
+            </h1>
+        </div>
+        
+        <div id="b3">
+            <h2>Tandoori Panner</h2>
+            <img src="panner.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b5">
+            <h2>Dosa Sambhar</h2>
+            <img src="dos.jpeg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b6">
+            <h2>Chole Puri</h2>
+            <img src="puri.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b2">
+            <h2>Bulaw Paneer</h2>
+            <img src="bulaw.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+    </div>
+    <!--***************************************************************-->
+    <div id="blog2">
+        <div id="b1">
+            <h1 align="center">
+                Our best and tasty snacks
+            </h1>
+        </div>
+        <div id="b2">
+            <h2>Samosa Chutney</h2>
+            <img src="samosa.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b4">
+            <h2>Noodles</h2>
+            <img src="chow.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b7">
+            <h2>Gulab Jamun</h2>
+            <img src="gulab.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b8">
+            <h2>Laddoo</h2>
+            <img src="lado.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b10">
+            <h2>Potato Chips</h2>
+            <img src="chips.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b15">
+            <h2>Pani Puri</h2>
+            <img src="gupchup.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b16">
+            <h2>Ras Kadam</h2>
+            <img src="ras.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b17">
+            <h2>Papri Chat</h2>
+            <img src="papri.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b18">
+            <h2>Gupchup Shake</h2>
+            <img src="shake.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+    </div>
+    <!--*******************************************************************-->
+    <div id="blog3">
+        <div id="b1">
+            <h1 align="center">
+                Our best and tasty dinner dishes
+            </h1>
+        </div>
+        <div id="b19">
+            <h2>Paratha Dal</h2>
+            <img src="din4.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b20">
+            <h2>Chole Puri</h2>
+            <img src="din3.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b21">
+            <h2>Idli Chutney</h2>
+            <img src="din2.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+        <div id="b22">
+            <h2>Roti Samji</h2>
+            <img src="din1.jpg"/>
+            <br/>
+            <a href="three.html">
+                BUY NOW
+            </a>
+        </div>
+    </div>
+    <div id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14711.558993960147!2d86.13195522884433!3d22.806548811004454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e4f942db25c5%3A0xe8f2e1fde7beeba!2sHatiyadih%2C%20Jamshedpur%2C%20Jharkhand!5e0!3m2!1sen!2sin!4v1635736974272!5m2!1sen!2sin" width="1500px" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</body>
+</html>
